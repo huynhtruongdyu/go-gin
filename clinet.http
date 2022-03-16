@@ -1,0 +1,22 @@
+@hostname = http://localhost:8080
+
+get {{hostname}}/videos
+
+###
+
+post {{hostname}}/videos
+Content-Type: application/json
+
+{
+    "title": "Chuyện Trò",
+	"desc": "PC (Prod. by VoVanDuc) (INSTRUMENTAL)",
+	"url": "https://www.youtube.com/watch?v=sKaL3FbCuQw"
+}
+
+###
+
+
+
+
+
+
